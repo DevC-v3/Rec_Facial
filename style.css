@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: gray;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+}
+
+video,
+canvas {
+    width: 720px;
+    height: 560px;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
