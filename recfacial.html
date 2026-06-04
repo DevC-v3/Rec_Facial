@@ -10,11 +10,14 @@
 </head>
 <body>
     <h1>Detección de Rostro</h1>
-    <select name="" id="selecionarCamara"></select><br>
-    <div class="contenedor">
-        <video id="video" autoplay muted>
 
-        </video>
+    <select id="seleccionarCamara"></select><br>
+
+    <input type="file" id="fotoReferencia" accept="image/*"/>
+    <p id="resultado"></p>
+
+    <div id="cont" class="contenedor">
+        <video id="video" autoplay muted></video>
     </div>
 </body>
 </html>
