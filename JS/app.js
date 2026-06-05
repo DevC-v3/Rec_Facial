@@ -53,8 +53,10 @@ video.addEventListener("playing", () => {
             console.log(distancia);
             if (distancia < 0.5) {
                 resultado.textContent = "Persona identificada";
+                resultado.style.color = "white";
             } else {
                 resultado.textContent = "Persona NO identificada";
+                resultado.style.color = "red";
             }
         }
     },100);
